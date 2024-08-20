@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+div {
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: right;
+    background-color: rgb(171, 169, 167);
+}
+
+button {
+    width: 46px;
+    height: 52px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: width 0.3s ease-out, background-color 0.5s ease-in ;
+}
+
+button:active {
+    width: 50px;
+    background-color: rgb(102, 104, 233);
+}
+
+p {
+    font-size: larger;
+}
